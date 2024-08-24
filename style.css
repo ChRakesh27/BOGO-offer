@@ -10,7 +10,7 @@
 
 .bogo-card {
     background: #fff;
-    width: 442px;
+    width: 342px;
     padding: 24px 40px;
     font-size: 14.6px;
 }
@@ -21,6 +21,7 @@
     font-weight: 700;
     line-height: 25.51px;
     text-align: center;
+    margin: 0px;
 }
 
 
@@ -53,6 +54,7 @@
 .del-price {
     display: none;
 }
+
 
 .offer.expanded .off-table {
     display: block;
@@ -96,7 +98,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-right: 10px;
+
 }
 
 .popular-offer {
@@ -192,4 +195,10 @@ td {
     justify-content: space-between;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.form-select {
+    padding: 3px;
+    width: 65.98px;
+    height: 25.31px;
 }
